@@ -17,23 +17,24 @@ body {
   border: 0.2rem solid #000;
   height: 95vh;
   width: 30rem;
+  position: relative;
 }
 
 .floor,
 .btn-wrapper {
   height: 31.6vh;
   border-bottom: 0.2rem solid #000;
-  position: relative;
 }
 
 .lift {
   width: 95%;
-  height: 95%;
+  height: 31%;
   border: 0.2rem solid #000;
   background: linear-gradient(#ffafbd, #ffc3a0);
   position: absolute;
-  top: 0.6rem;
+  bottom: 0.6rem;
   left: 0.7rem;
+  /* z-index: 999; */
 }
 
 .btn-container {
