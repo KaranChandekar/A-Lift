@@ -52,12 +52,16 @@ body {
 
 .btn {
   font-size: 2rem;
-  margin: 4rem 0;
+  height: 4rem;
+  width: 4rem;
+  margin: 3rem 0;
   cursor: pointer;
-  padding: 1rem;
   background-color: #2193b0;
   border-radius: 50%;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn:hover {
