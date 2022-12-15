@@ -37,3 +37,12 @@ btnLvl1Down.addEventListener("click", () => {
     lift.style.transition = "5s";
   }
 });
+
+const audio = new Audio("/elevator-door.mp3");
+const buttons = document.querySelectorAll(".btn");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
