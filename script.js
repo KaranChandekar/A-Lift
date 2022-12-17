@@ -14,7 +14,7 @@ btnUp0.addEventListener("click", () => {
 
 btnLvl1Up.addEventListener("click", () => {
   if (upmotion == true) {
-    lift.style.bottom = "34%";
+    lift.style.bottom = "34.5%";
     lift.style.transition = "2s";
   } else if (downmotion == true) {
   }
@@ -30,7 +30,7 @@ btndown2.addEventListener("click", () => {
 
 btnLvl1Down.addEventListener("click", () => {
   if (downmotion == true) {
-    lift.style.bottom = "34%";
+    lift.style.bottom = "34.5%";
     lift.style.transition = "2s";
   } else if (upmotion == true) {
     lift.style.bottom = "70%";
